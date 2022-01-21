@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ensure a loading state on page 1`] = `
+<div>
+  <h1>
+    loading
+  </h1>
+</div>
+`;
+
+exports[`Should render Product Details page 1`] = `
+<div>
+  <h1>
+    loading
+  </h1>
+</div>
+`;
