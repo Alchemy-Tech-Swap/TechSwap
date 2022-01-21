@@ -3,16 +3,16 @@
 exports[`Footer.js should do something 1`] = `
 <div>
   <div
-    class="sc-bdvvtL fOitHK"
+    class="sc-bdvvtL jjTbTC"
   >
     <div
       class="sc-gsDKAQ iUpUSJ cont"
     >
       <div
-        class="sc-hKwDye fqpmOo"
+        class="sc-hKwDye kuXCZL"
       >
         <div
-          class="sc-dkPtRN auSoR"
+          class="sc-dkPtRN beDeQr"
         >
           <p
             class="sc-jRQBWg iiYqJV"
@@ -29,7 +29,7 @@ exports[`Footer.js should do something 1`] = `
           </p>
         </div>
         <div
-          class="sc-dkPtRN auSoR"
+          class="sc-dkPtRN beDeQr"
         >
           <button
             class="logoutbtn"
@@ -38,22 +38,20 @@ exports[`Footer.js should do something 1`] = `
           </button>
         </div>
         <div
-          class="sc-dkPtRN auSoR"
+          class="sc-dkPtRN beDeQr"
         >
           <input
             class="searchbar"
             placeholder="Search"
-            type="text"
-            value=""
           />
-          <button
-            class="searchbtn"
-          >
-            GO
-          </button>
         </div>
+        <button
+          class="searchbtn"
+        >
+          GO
+        </button>
         <div
-          class="sc-dkPtRN auSoR"
+          class="sc-dkPtRN beDeQr"
         >
           <p
             class="sc-jRQBWg iiYqJV"
