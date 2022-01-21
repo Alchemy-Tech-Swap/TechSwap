@@ -32,17 +32,9 @@ const Header = () => {
             </button>
           </Column>
           <Column>
-            <input
-              type="text"
-              className="searchbar"
-              value={query}
-              placeholder="Search"
-              onChange={(e) => {
-                setQuery(e.target.value);
-              }}
-            ></input>
-            <button className="searchbtn">GO</button>
+            <input className="searchbar" placeholder="Search"></input>
           </Column>
+          <button className="searchbtn">GO</button>
           <Column>
             <Heading>
               <HeaderLink href="/categories">

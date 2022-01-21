@@ -46,6 +46,7 @@ export const FooterLink = styled.a`
   margin-bottom: 2px;
   font-size: 16px;
   text-decoration: none;
+  // font-weight: bold;
 
   &:hover {
     color: royalBlue;
