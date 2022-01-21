@@ -8,9 +8,6 @@ export const Box = styled.div`
   bottom: 20px;
   width: 100%;
   height: 10px;
-  // @media (max-width: 1000px) {
-  //   padding: 50px 80px;
-  // }
 `;
 
 export const Container = styled.div`
@@ -26,7 +23,6 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  // margin-left: 1px;
 `;
 
 export const Row = styled.div`
@@ -35,10 +31,6 @@ export const Row = styled.div`
   grid-gap: 10px;
   margin-left: 15px;
   margin-right: 15px;
-
-  // @media (max-width: 1000px) {
-  //   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  // }
 `;
 
 export const HeaderLink = styled.a`
