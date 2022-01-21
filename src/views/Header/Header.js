@@ -5,7 +5,7 @@ import { getUser, logout } from '../../services/users';
 import { useState } from 'react';
 
 const Header = () => {
-  const [currentUser, setCurrentUser] = useState(getUser());
+  const [, /*currentUser*/ setCurrentUser] = useState(getUser());
   const [query, setQuery] = useState('');
 
   const logoutUser = async () => {
