@@ -1,5 +1,4 @@
 import { client, checkError } from './client.js';
-import { Link } from 'react-router-dom';
 
 export function getUser() {
   return client.auth.session();

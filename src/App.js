@@ -9,7 +9,6 @@ import ProductDetails from './views/Product/ProductDetails';
 import AddProduct from './views/Product/AddProduct';
 import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './views/Footer/Footer';
-import Categories from './views/Product/Categories';
 import Header from './views/Header/Header';
 import ProtectedRoute from './utils/ProtectedRoute';
 import EditProduct from './views/Product/EditProduct';
@@ -65,11 +64,6 @@ function App() {
             {/* About Us */}
             <Route exact path="/aboutus">
               <AboutUs />
-            </Route>
-
-            {/* Need to create Categories views */}
-            <Route exact path="/categories">
-              <Categories />
             </Route>
 
             {/* Edit Product */}
