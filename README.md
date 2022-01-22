@@ -38,7 +38,7 @@ Our Project team members are:
   <br>
   GitHub: <a href = "https://github.com/Gcrowder93">https://github.com/Gcrowder93</a>
 
-* Chase
+* Brett
   <br>
   Email: <a href = "mailto: seifriedbrett@gmail.com">SeifriedBrett@gmail.com</a>
   <br>
