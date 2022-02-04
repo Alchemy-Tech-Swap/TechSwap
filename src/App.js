@@ -41,24 +41,24 @@ function App() {
               {!currentUser && <Auth setCurrentUser={setCurrentUser} />}
             </Route>
 
+            {/* Add Page */}
+            <ProtectedRoute exact path="/products/new" currentUser={currentUser}>
+              <AddProduct user={currentUser} />
+            </ProtectedRoute>
+
             {/* View Product */}
             <Route exact path="/products/:id">
               <ProductDetails user={currentUser} />
             </Route>
 
-            {/* Add Page */}
-            <ProtectedRoute exact path="/add" currentUser={currentUser}>
-              <AddProduct user={currentUser} />
-            </ProtectedRoute>
-
             {/* View Profile/ Edit own Profile */}
             <ProtectedRoute exact path="/profile/:id/edit" currentUser={currentUser}>
-              <EditUserView exact path="/profile/:id/edit" currentUser={currentUser} />
+              <EditUserView />
             </ProtectedRoute>
 
             {/* Profile */}
             <Route exact path="/profile/:id">
-              <UserView exact path="/profile/:id" currentUser={currentUser} />
+              <UserView currentUser={currentUser} />
             </Route>
 
             {/* About Us */}

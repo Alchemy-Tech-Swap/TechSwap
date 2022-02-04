@@ -5,7 +5,7 @@ import '../../App.css';
 
 export default function ProductsCard({ products }) {
   return (
-    <div>
+    <>
       <h1 className="productListTitle">
         <img className="techlogo" src={logo} alt="Techswap2"></img>
         Welcome To The TechSwap
@@ -21,6 +21,6 @@ export default function ProductsCard({ products }) {
           </Link>
         </div>
       ))}
-    </div>
+    </>
   );
 }
