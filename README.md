@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"><img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+
 ![Techswap2](/Techswap2.png)
 
 The Alchemy Code Lab Tech Swap is a project that was created as a for new students to not have thier education limited by technology.
